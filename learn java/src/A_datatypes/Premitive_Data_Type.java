@@ -32,7 +32,7 @@ public class Premitive_Data_Type {
         System.out.println(" size "+ Long.SIZE);
         System.out.println(" max "+ Long.MAX_VALUE +  " min " + Long.MIN_VALUE);
 
-        //                decimal
+        //                   decimal
 
         // float
 
@@ -48,6 +48,15 @@ public class Premitive_Data_Type {
         System.out.println(" size "+ Double.SIZE);
         System.out.println(" max "+ Double.MAX_VALUE + " min " + Double.MIN_VALUE);
 
+        // ======================= Boolean
+
+        System.out.println("Boolean:");
+        System.out.println("Possible values: " + Boolean.TRUE + ", " + Boolean.FALSE);
+
+        // ========================= Character
+
+        System.out.println("- Double ");
+        System.out.println(" size "+ Character.SIZE);
 
     }
 
